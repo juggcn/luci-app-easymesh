@@ -109,6 +109,7 @@ add_kvr() {
 		else
 			uci -q delete wireless.default_$apall.ieee80211k
 			uci -q delete wireless.default_$apall.ieee80211v
+			uci -q delete wireless.default_$apall.bss_transition
 			uci -q delete wireless.default_$apall.ieee80211r
 			uci commit wireless
 		fi
