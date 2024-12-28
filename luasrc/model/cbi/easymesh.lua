@@ -80,7 +80,7 @@ enable.default = 1
 enable.rmempty = false
 
 o = s:option(Value, "mobility_domain", translate("Mobility Domain"), translate("4-character hexadecimal ID"))
-o.default = "4f57"
+o.default = "5555"
 o.datatype = "and(hexstring,rangelength(4,4))"
 o:depends("kvr", 1)
 
