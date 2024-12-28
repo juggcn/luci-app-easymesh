@@ -94,6 +94,12 @@ o.default = "-80"
 o.atatype = "range(-1,-120)"
 o:depends("kvr", 1)
 
+-- 2.4G wifi 802.11r
+enable = s:option(Flag, "r_2g", translate("2.4g wifi enable r"), translate("Enable 802.11r for 2.4G"))
+enable.default = 1
+enable.rmempty = false
+enable:depends("kvr", 1)
+
 ---- 802.11F
 --enable = s:option(Flag, "iapp", translate("inter-access point protocol"), translate("Wireless Access Points (APs) running on different vendors can communicate with each other"))
 --enable.default = 0

@@ -87,3 +87,9 @@ msgstr "IPv4 网关"
 
 msgid "Use custom DNS servers"
 msgstr "使用自定义的 DNS 服务器"
+
+msgid "2.4g wifi enable r"
+msgstr "2.4G wifi启用r"
+
+msgid "Enable 802.11r for 2.4G"
+msgstr "启用2.4G无线网络的802.11r协议"
