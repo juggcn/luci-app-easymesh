@@ -85,12 +85,12 @@ o.datatype = "and(hexstring,rangelength(4,4))"
 o:depends("kvr", 1)
 
 o = s:option(Value, "rssi_val", translate("Threshold for an good RSSI"))
-o.default = "-60"
+o.default = "-65"
 o.atatype = "range(-1,-120)"
 o:depends("kvr", 1)
 
 o = s:option(Value, "low_rssi_val", translate("Threshold for an bad RSSI"))
-o.default = "-88"
+o.default = "-80"
 o.atatype = "range(-1,-120)"
 o:depends("kvr", 1)
 
