@@ -20,4 +20,4 @@ Forck 自 https://github.com/ntlf9t/luci-app-easymesh 的有线+无线回程的m
     git clone https://github.com/theosoft-git/luci-app-easymesh.git package/luci-app-easymesh
     make menuconfig # choose LUCI -> Applications -> luci-app-easymesh
     make package/luci-app-easymesh/compile V=s
-编译结果输出在bin/packages/xxx/base/luci-app-easymesh_XXX.ipk
+编译结果输出在bin/packages/xxx/base/luci-app-easymesh_xxx.ipk

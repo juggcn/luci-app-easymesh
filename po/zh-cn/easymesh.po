@@ -58,6 +58,9 @@ msgstr "加密"
 msgid "Key"
 msgstr "密码"
 
+msgid "Mesh Key"
+msgstr "Mesh网络密码"
+
 msgid "inter-access point protocol"
 msgstr "接入点内部协议"
 

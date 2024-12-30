@@ -70,8 +70,9 @@ enable = s:option(Flag, "encryption", translate("Encryption"), translate(""))
 enable.default = 0
 enable.rmempty = false
 
-o = s:option(Value, "key", translate("Key"))
+o = s:option(Value, "key", translate("Key"), translate("Mesh Key"))
 o.default = "easymesh"
+o.password = true
 o:depends("encryption", 1)
 
 ---- kvr
@@ -86,12 +87,12 @@ o:depends("kvr", 1)
 
 o = s:option(Value, "rssi_val", translate("Threshold for an good RSSI"))
 o.default = "-65"
-o.atatype = "range(-1,-120)"
+o.datatype = "range(-120,-1)"
 o:depends("kvr", 1)
 
 o = s:option(Value, "low_rssi_val", translate("Threshold for an bad RSSI"))
 o.default = "-80"
-o.atatype = "range(-1,-120)"
+o.datatype = "range(-120,-1)"
 o:depends("kvr", 1)
 
 -- 2.4G wifi 802.11r
